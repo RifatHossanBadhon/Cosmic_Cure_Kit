@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
             --light: #f9fafb;
             --dark: #111827;
         }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
@@ -22,58 +24,71 @@
             padding: 2rem;
             background-color: var(--light);
         }
+
         .header {
             text-align: center;
             margin-bottom: 2rem;
             padding-bottom: 1rem;
             border-bottom: 2px solid var(--primary);
         }
+
         h1 {
             color: var(--primary);
             margin-bottom: 0.5rem;
         }
+
         h2 {
             color: var(--secondary);
             margin-top: 2rem;
             padding-left: 0.5rem;
             border-left: 4px solid var(--accent);
         }
+
         .card {
             background: white;
             border-radius: 8px;
             padding: 1.5rem;
             margin: 1rem 0;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 1rem 0;
         }
-        th, td {
+
+        th,
+        td {
             padding: 12px;
             text-align: left;
             border-bottom: 1px solid #ddd;
         }
+
         th {
             background-color: var(--primary);
             color: white;
         }
+
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+
         .timeline {
             position: relative;
             padding-left: 1.5rem;
             margin: 2rem 0;
         }
+
         .timeline-item {
             position: relative;
             padding-bottom: 2rem;
         }
+
         .timeline-item:last-child {
             padding-bottom: 0;
         }
+
         .timeline-dot {
             position: absolute;
             left: -1.5rem;
@@ -82,20 +97,45 @@
             border-radius: 50%;
             background-color: var(--primary);
         }
+
         .timeline-content {
             padding: 1rem;
             background: white;
             border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
         .resource-link {
             color: var(--primary);
             text-decoration: none;
             font-weight: 500;
         }
+
         .resource-link:hover {
             text-decoration: underline;
         }
+
+        .icon {
+            font-size: 1.5rem;
+            display: inline-block;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+
+
+        .icon-sm {
+            font-size: 1.25rem;
+        }
+
+        .icon-md {
+            font-size: 1.75rem;
+        }
+
+        .icon-lg {
+            font-size: 2.25rem;
+        }
+
+
         .footer {
             text-align: center;
             margin-top: 3rem;
@@ -106,10 +146,11 @@
         }
     </style>
 </head>
+
 <body>
     <div class="header">
         <h1>Cosmic Cure</h1>
-       
+
     </div>
 
     <div class="card">
@@ -123,37 +164,44 @@
             <tr>
                 <td>HTML5</td>
                 <td>1-2 weeks</td>
-                <td><a href="https://youtu.be/pQN-pnXPaVg" class="resource-link" target="_blank">HTML Crash Course</a></td>
+                <td><a href="https://youtu.be/pQN-pnXPaVg" class="resource-link" target="_blank">HTML Crash Course</a>
+                </td>
             </tr>
             <tr>
                 <td>CSS3</td>
                 <td>2-3 weeks</td>
-                <td><a href="https://youtu.be/yfoY53QXEnI" class="resource-link" target="_blank">CSS Full Course</a></td>
+                <td><a href="https://youtu.be/yfoY53QXEnI" class="resource-link" target="_blank">CSS Full Course</a>
+                </td>
             </tr>
             <tr>
                 <td>JavaScript</td>
                 <td>4-6 weeks</td>
-                <td><a href="https://youtu.be/PkZNo7MFNFg" class="resource-link" target="_blank">JavaScript Tutorial</a></td>
+                <td><a href="https://youtu.be/PkZNo7MFNFg" class="resource-link" target="_blank">JavaScript Tutorial</a>
+                </td>
             </tr>
             <tr>
                 <td>Bootstrap 5</td>
                 <td>1-2 weeks</td>
-                <td><a href="https://youtu.be/-qfEOE4vtxE" class="resource-link" target="_blank">Bootstrap 5 Tutorial</a></td>
+                <td><a href="https://youtu.be/-qfEOE4vtxE" class="resource-link" target="_blank">Bootstrap 5
+                        Tutorial</a></td>
             </tr>
             <tr>
                 <td>jQuery</td>
                 <td>1 week</td>
-                <td><a href="https://youtu.be/3nrLc_JOF7k" class="resource-link" target="_blank">jQuery Crash Course</a></td>
+                <td><a href="https://youtu.be/3nrLc_JOF7k" class="resource-link" target="_blank">jQuery Crash Course</a>
+                </td>
             </tr>
             <tr>
                 <td>Vue.js</td>
                 <td>3-4 weeks</td>
-                <td><a href="https://youtu.be/FXpIoQ_rT_c" class="resource-link" target="_blank">Vue.js Tutorial</a></td>
+                <td><a href="https://youtu.be/FXpIoQ_rT_c" class="resource-link" target="_blank">Vue.js Tutorial</a>
+                </td>
             </tr>
             <tr>
                 <td>Thymeleaf</td>
                 <td>1 week</td>
-                <td><a href="https://youtu.be/LoFvIymQApQ" class="resource-link" target="_blank">Thymeleaf with Spring</a></td>
+                <td><a href="https://youtu.be/LoFvIymQApQ" class="resource-link" target="_blank">Thymeleaf with
+                        Spring</a></td>
             </tr>
         </table>
     </div>
@@ -174,17 +222,20 @@
             <tr>
                 <td>Spring Boot</td>
                 <td>4-6 weeks</td>
-                <td><a href="https://youtu.be/9SGDpanrc8U" class="resource-link" target="_blank">Spring Boot Course</a></td>
+                <td><a href="https://youtu.be/9SGDpanrc8U" class="resource-link" target="_blank">Spring Boot Course</a>
+                </td>
             </tr>
             <tr>
                 <td>Spring Security</td>
                 <td>2-3 weeks</td>
-                <td><a href="https://youtu.be/her_7pa0vrg" class="resource-link" target="_blank">Spring Security</a></td>
+                <td><a href="https://youtu.be/her_7pa0vrg" class="resource-link" target="_blank">Spring Security</a>
+                </td>
             </tr>
             <tr>
                 <td>Hibernate/JPA</td>
                 <td>3-4 weeks</td>
-                <td><a href="https://youtu.be/8SGI_XS5OPw" class="resource-link" target="_blank">Hibernate Tutorial</a></td>
+                <td><a href="https://youtu.be/8SGI_XS5OPw" class="resource-link" target="_blank">Hibernate Tutorial</a>
+                </td>
             </tr>
             <tr>
                 <td>MySQL/PostgreSQL</td>
@@ -194,7 +245,8 @@
             <tr>
                 <td>REST APIs</td>
                 <td>2-3 weeks</td>
-                <td><a href="https://youtu.be/9SGDpanrc8U?feature=shared" class="resource-link" target="_blank">REST with Spring</a></td>
+                <td><a href="https://youtu.be/9SGDpanrc8U?feature=shared" class="resource-link" target="_blank">REST
+                        with Spring</a></td>
             </tr>
         </table>
     </div>
@@ -232,19 +284,76 @@
                 <td>2 weeks</td>
                 <td><a href="https://youtu.be/5R2h5_jDkOY" class="resource-link" target="_blank">JasperReports</a></td>
             </tr>
-           
-          
+
+
         </table>
     </div>
 
+
+    <div class="card">
+        <h2>✨ Features In Cosmic Cure 🏥</h2>
+        <table>
+            <tr>
+                <th>
+                    <span class="icon icon-md ">👨‍⚕️</span> Admin Panel
+                </th>
+                <th>
+                    <span class="icon icon-md ">🩺</span> Doctor Panel
+                </th>
+                <th>
+                    <span class="icon icon-md">💖</span> Patient Panel
+                </th>
+                <th>
+                    <span class="icon icon-md">💊</span> Pharmacy Panel
+                </th>
+            </tr> /* shift + alt+f*/
+            <tr>
+                <td><span class="icon">👥</span> Patient/Doctor/Staff CRUD</td>
+                <td><span class="icon">📋</span> Patient Records Viewer</td>
+                <td><span class="icon">👤</span> Profile Management</td>
+                <td><span class="icon">📦</span> Medicine Inventory Manager</td>
+            </tr>
+            <tr>
+                <td><span class="icon">🏨</span> Department & Ward Management</td>
+                <td><span class="icon">🗓️ </span>Appointment Viewer</td>
+                <td><span class="icon">📅</span> Online Appointment Booking</td>
+                <td><span class="icon">📝 </span>Prescription Request Handler</td>
+            </tr>
+            <tr>
+                <td><span class="icon">📊 </span>Financial Dashboard</td>
+                <td><span class="icon">💉</span> E-Prescription Module</td>
+                <td> <span class="icon">🤖</span>AI Symptom Checker (Chatbot)</td>
+                <td><span class="icon">📊 </span>Pharmacy Dashboard</td>
+            </tr>
+            <tr>
+                <td><span class="icon">⏱️ </span>Appointment Scheduler</td>
+                <td><span class="icon">📹 </span>Telemedicine Console</td>
+                <td><span class="icon">🔍</span> Doctor Directory & Ratings</td>
+                <td><span class="icon">🔎</span> Searching System</td>
+            </tr>
+            <tr>
+                <td><span class="icon">📈</span> Analytics Dashboard</td>
+                <td><span class="icon">💬</span> Secure Patient Chat</td>
+                <td><span class="icon">⭐</span> Feedback System</td>
+                <td><span class="icon">📖</span> Smart Prescription Reader</td>
+            </tr>
+            <tr>
+                <td><span class="icon">🚑</span> Transfer System</td>
+                <td><span class="icon">🔔</span> Notification System</td>
+                <td><span class="icon">🆘</span> Emergency Contact Portal</td>
+                <td><span class="icon">🩸</span> Blood Management</td>
+            </tr>
+        </table>
+    </div>
     <h2>Development Timeline</h2>
     <div class="timeline">
         <h1>Life Long Process 💀</h1>
-        
+
     </div>
 
     <div class="footer">
         <p>All Rights Reserved To Badhon</p>
     </div>
 </body>
+
 </html>
